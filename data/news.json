@@ -1,14 +1,27 @@
 [
   {
-    "date": "2025-01-01",
-    "content": "Welcome to my new academic homepage! This template is available on GitHub.",
+    "date": "2026-08",
+    "content": "Joined the Multimedia Signal and Intelligent Information Processing (MSIIP) Lab in the Department of Electronic Engineering at Tsinghua University as an M.S. student, advised by Prof. Ji Wu.",
     "links": [
-        { "text": "GitHub", "url": "https://github.com/yihangtao/AcaNova-X" }
+      {
+        "text": "Lab",
+        "url": "http://msiip.tsinghua.edu.cn/"
+      }
     ]
   },
   {
-     "date": "2024-12-15",
-     "content": "One paper titled 'A Novel Approach to AI' was accepted to CVPR 2025!",
-     "links": []
+    "date": "2026-08",
+    "content": "Attended the Agentic AI Summit 2026 at UC Berkeley.",
+    "links": [
+      {
+        "text": "Event",
+        "url": "https://rdi.berkeley.edu/events/agentic-ai-summit-2026"
+      }
+    ]
+  },
+  {
+    "date": "2026-05",
+    "content": "Earned my M.S.E. in Biomedical Engineering from Johns Hopkins University through the THU-JHU Dual Degree Program.",
+    "links": []
   }
 ]
