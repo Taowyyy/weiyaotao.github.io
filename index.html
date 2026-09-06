@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weiyao Tao</title>
-    <meta name="description" content="Weiyao Tao is a medical AI researcher working on medical vision-language models, surgical video understanding, and trustworthy multimodal AI.">
+    <meta name="description" content="Weiyao Tao is a medical AI researcher working on multimodal foundation models, surgical workflow understanding, and trustworthy agentic systems.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -45,12 +45,12 @@
                 <div class="hidden lg:block">
                     <div class="ml-10 flex items-center space-x-8">
                         <ul class="nav-links flex space-x-8">
-                            <li><a href="#homepage" class="nav-item">Homepage</a></li>
                             <li><a href="#about" class="nav-item">About</a></li>
+                            <li><a href="#research-thrust" class="nav-item">Research</a></li>
                             <li><a href="#latest-news" class="nav-item">News</a></li>
                             <li><a href="#publications" class="nav-item">Publications</a></li>
+                            <li><a href="#experience" class="nav-item">Experience</a></li>
                             <li><a href="#honors" class="nav-item">Honors</a></li>
-                            <li><a href="#services" class="nav-item">Service</a></li>
                             <li><a href="#educations" class="nav-item">Education</a></li>
                             <li><a href="#contact" class="nav-item">Contact</a></li>
                         </ul>
@@ -66,12 +66,12 @@
 
             <div class="mobile-menu hidden lg:hidden absolute top-16 left-0 w-full bg-white/95 backdrop-blur-md border-b border-neutral-200 shadow-lg" id="mobile-menu">
                 <ul class="flex flex-col py-4 px-4 space-y-4">
-                    <li><a href="#homepage" class="mobile-nav-item block text-neutral-600 hover:text-primary font-medium">Homepage</a></li>
                     <li><a href="#about" class="mobile-nav-item block text-neutral-600 hover:text-primary font-medium">About</a></li>
+                    <li><a href="#research-thrust" class="mobile-nav-item block text-neutral-600 hover:text-primary font-medium">Research</a></li>
                     <li><a href="#latest-news" class="mobile-nav-item block text-neutral-600 hover:text-primary font-medium">News</a></li>
                     <li><a href="#publications" class="mobile-nav-item block text-neutral-600 hover:text-primary font-medium">Publications</a></li>
+                    <li><a href="#experience" class="mobile-nav-item block text-neutral-600 hover:text-primary font-medium">Experience</a></li>
                     <li><a href="#honors" class="mobile-nav-item block text-neutral-600 hover:text-primary font-medium">Honors</a></li>
-                    <li><a href="#services" class="mobile-nav-item block text-neutral-600 hover:text-primary font-medium">Service</a></li>
                     <li><a href="#educations" class="mobile-nav-item block text-neutral-600 hover:text-primary font-medium">Education</a></li>
                     <li><a href="#contact" class="mobile-nav-item block text-neutral-600 hover:text-primary font-medium">Contact</a></li>
                 </ul>
@@ -143,12 +143,13 @@
                         </div>
                         <div class="prose max-w-none text-neutral-600 text-justify formal-font">
                             <p class="mb-4">
-                                I am an M.S. candidate in Electrical Engineering at <strong>Tsinghua University</strong> enrolled in the THU-JHU Dual Degree Program, after completing an M.S.E. in Biomedical Engineering at <strong>Johns Hopkins University</strong>. Previously, I was a visiting student in Computer Science at the <strong>University of Oxford</strong>. I received dual bachelor's degrees in Automation and Information Engineering from <strong>Xi'an Jiaotong University</strong>. This interdisciplinary background has given me a strong foundation in mathematics, computation, and engineering, and has shaped my interest in developing AI methods for complex healthcare problems.
+                                I am an M.S. student in Electrical Engineering at <strong>Tsinghua University</strong>, following an M.S.E. in Biomedical Engineering at <strong>Johns Hopkins University</strong>. I previously studied Computer Science at the <strong>University of Oxford</strong> and earned dual B.Eng. degrees from <strong>Xi'an Jiaotong University</strong>. This interdisciplinary training has given me a strong foundation in mathematics, machine learning, and biomedical engineering.
                             </p>
                             <p class="mb-4">
-                                My research has focused on modeling of clinical processes and outcomes. At Johns Hopkins, I developed <strong>SurgTTE</strong>, a distributional framework that recognizes the current surgical step and anticipates which step will occur next and when the transition will happen. At Oxford, I developed <strong>SurvUnc</strong>, a model-agnostic framework for quantifying uncertainty in survival analysis, published at <strong>KDD 2025</strong>. 
+                                My research focuses on reliable modeling of clinical processes and outcomes. At Johns Hopkins, I developed <strong>SurgTTE</strong> for uncertainty-aware surgical workflow anticipation. At Oxford, I developed <strong>SurvUnc</strong>, a model-agnostic uncertainty quantification framework for survival analysis published at <strong>KDD 2025</strong>.
+                            </p>
                             <p class="mb-4">
-                                I am broadly interested in <strong>multimodal medical foundation models</strong> and <strong>agentic AI for healthcare</strong>. Looking forward, I hope to develop clinically grounded medical agents that integrate images, video, text, and, and longitudinal data with reasoning, tool use, uncertainty awareness, and human-in-the-loop to support trustworthy clinical workflows.
+                                I am broadly interested in <strong>multimodal medical foundation models</strong> and <strong>agentic AI for healthcare</strong>, with the goal of building clinically grounded systems that combine multimodal reasoning, tool use, uncertainty awareness, and human oversight for trustworthy clinical workflows.
                             </p>
 
                             <div class="highlight-box bg-accent/10 border-l-4 border-accent p-4 rounded-r-lg text-left font-sans">
@@ -166,38 +167,34 @@
                         </div>
                         <div class="prose max-w-none text-neutral-600 text-justify formal-font">
                             <blockquote class="pl-4 border-l-4 border-accent/30 italic text-neutral-600 bg-neutral-50/50 p-4 rounded-r-lg mb-6">
-                                "I aim to build clinically grounded AI systems that learn from multimodal medical data, reason across complex clinical contexts, and support trustworthy healthcare workflows."
+                                "I develop clinically grounded multimodal and agentic AI systems for trustworthy healthcare workflows."
                             </blockquote>
-
-                            <p class="mb-8">
-                                My research spans surgical workflow understanding, multimodal medical foundation models, and trustworthy agentic AI for healthcare.
-                            </p>
 
                             <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-6">
                                 <div class="thrust-card bg-neutral-50 rounded-xl p-5 border border-neutral-100 hover:shadow-md transition-all duration-300 group flex flex-col h-full">
                                     <h3 class="font-serif font-bold text-lg text-primary mb-4 flex items-center group-hover:text-accent transition-colors">
-                                        <i class="fas fa-microscope text-accent mr-2 group-hover:scale-110 transition-transform"></i> Medical Large Vision Language Models
+                                        <i class="fas fa-microscope text-accent mr-2 group-hover:scale-110 transition-transform"></i> Multimodal Medical Foundation Models
                                     </h3>
                                     <p class="text-sm leading-relaxed text-justify text-neutral-600 flex-grow">
-                                        Developing large vision language models (LVLM) that connect medical images and videos with clinical language for multimodal understanding, reasoning, and generation.
+                                        Learning from medical images, video, text, and longitudinal records to support grounded clinical reasoning and robust generalization.
                                     </p>
                                 </div>
 
                                 <div class="thrust-card bg-neutral-50 rounded-xl p-5 border border-neutral-100 hover:shadow-md transition-all duration-300 group flex flex-col h-full">
                                     <h3 class="font-serif font-bold text-lg text-primary mb-4 flex items-center group-hover:text-accent transition-colors">
-                                        <i class="fas fa-film text-accent mr-2 group-hover:scale-110 transition-transform"></i> Surgical Video Understanding
+                                        <i class="fas fa-film text-accent mr-2 group-hover:scale-110 transition-transform"></i> Surgical Workflow Understanding
                                     </h3>
                                     <p class="text-sm leading-relaxed text-justify text-neutral-600 flex-grow">
-                                        Designing distributional time-to-event model for online surgical workflow understanding that jointly recognize the current step, predict which step will occur next and when, and provide confidence estimates in a single forward pass.
+                                        Modeling surgical procedures across time to recognize ongoing activities, anticipate workflow transitions, and quantify predictive uncertainty.
                                     </p>
                                 </div>
 
                                 <div class="thrust-card bg-neutral-50 rounded-xl p-5 border border-neutral-100 hover:shadow-md transition-all duration-300 group flex flex-col h-full">
                                     <h3 class="font-serif font-bold text-lg text-primary mb-4 flex items-center group-hover:text-accent transition-colors">
-                                        <i class="fas fa-shield-alt text-accent mr-2 group-hover:scale-110 transition-transform"></i> Trustworthy Agentic Clinical AI
+                                        <i class="fas fa-shield-alt text-accent mr-2 group-hover:scale-110 transition-transform"></i> Trustworthy Agentic Systems for Healthcare
                                     </h3>
                                     <p class="text-sm leading-relaxed text-justify text-neutral-600 flex-grow">
-                                       Building clinically grounded agents that reason, retrieve evidence, use specialized tools, and coordinate multistep tasks with uncertainty awareness and human oversight.
+                                        Building agents that retrieve evidence, use specialized tools, communicate uncertainty, and collaborate with clinicians in auditable workflows.
                                     </p>
                                 </div>
                             </div>
@@ -214,14 +211,40 @@
 
                     <section id="publications" class="scroll-mt-24">
                         <div class="section-header mb-6 flex justify-between items-start gap-4">
-                            <div>
-                                <h2 class="text-3xl font-serif font-bold text-primary">Selected Publications</h2>
-                                <p class="text-sm text-neutral-500 mt-1">Set `showOnHomepage` and `featuredOrder` in `data/publications.json` to control what appears here.</p>
-                            </div>
+                            <h2 class="text-3xl font-serif font-bold text-primary">Selected Publications</h2>
                             <a href="pages/all-publications.html" class="text-sm font-medium text-accent hover:text-accent-dark transition-colors whitespace-nowrap mt-1">View Full List <i class="fas fa-arrow-right ml-1"></i></a>
                         </div>
 
                         <div id="featured-publications-container" class="publications-list space-y-6"></div>
+                    </section>
+
+                    <section id="experience" class="scroll-mt-24">
+                        <div class="section-header mb-6">
+                            <h2 class="text-3xl font-serif font-bold text-primary">Selected Professional Experience</h2>
+                        </div>
+                        <div class="timeline space-y-6">
+                            <div class="timeline-item flex gap-4">
+                                <div class="school-logo-container w-16 h-16 flex-shrink-0 bg-white rounded-lg shadow-sm p-2 flex items-center justify-center border border-neutral-100 text-2xl text-accent">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <div class="timeline-content">
+                                    <h3 class="font-semibold text-primary">Consulting Analyst</h3>
+                                    <p class="text-sm text-accent font-medium">Johns Hopkins University Global Consulting Project · Jan. 2026 – Mar. 2026</p>
+                                    <p class="text-sm text-neutral-600 mt-1 leading-relaxed">Advised the International Iberian Nanotechnology Laboratory on commercializing a catalyst-ink technology through market, IP, manufacturing-readiness, and scale-up analysis.</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item flex gap-4">
+                                <div class="school-logo-container w-16 h-16 flex-shrink-0 bg-white rounded-lg shadow-sm p-2 flex items-center justify-center border border-neutral-100 text-2xl text-accent">
+                                    <i class="fas fa-robot"></i>
+                                </div>
+                                <div class="timeline-content">
+                                    <h3 class="font-semibold text-primary">Engineering Intern, Robot Products Department</h3>
+                                    <p class="text-sm text-accent font-medium">Nanjing Panda Electronics · Jun. 2024 – Jul. 2024</p>
+                                    <p class="text-sm text-neutral-600 mt-1 leading-relaxed">Developed a YOLO-based real-time waste-classification pipeline and a PyQt interface for robot control.</p>
+                                </div>
+                            </div>
+                        </div>
                     </section>
 
                     <section id="honors" class="scroll-mt-24">
@@ -269,6 +292,7 @@
                                     <p class="text-sm text-neutral-600 mt-1 leading-relaxed">Participated in international discussions on employment, social challenges, youth empowerment, and policy development.</p>
                                 </div>
                             </div>
+
                         </div>
                     </section>
 
@@ -332,7 +356,7 @@
                                 <h3 class="font-semibold text-primary mb-2">Research and Career Opportunities</h3>
                                 <p class="text-neutral-600 flex items-start gap-2">
                                     <i class="fas fa-handshake mt-1 text-accent"></i>
-                                    <span>I welcome PhD, research collaboration, and internship opportunities.</span>
+                                    <span>I welcome PhD, research collaboration, internship, and full-time opportunities.</span>
                                 </p>
                             </div>
                             <div class="mb-4">
@@ -343,8 +367,10 @@
                                 </p>
                             </div>
                             <div class="visitor-stats text-center">
-                                <h3 class="font-semibold text-primary mb-2">Profiles</h3>
+                                <h3 class="font-semibold text-primary mb-2">Links</h3>
                                 <p class="text-sm text-neutral-500">
+                                    <a href="assets/Weiyao_s_Resume_260902.pdf" target="_blank" rel="noopener noreferrer" class="hover:text-accent transition-colors">CV</a>
+                                    <span class="mx-2">·</span>
                                     <a href="https://www.linkedin.com/in/weiyao-tao-5b7a302a3/" target="_blank" rel="noopener noreferrer" class="hover:text-accent transition-colors">LinkedIn</a>
                                     <span class="mx-2">·</span>
                                     <a href="https://github.com/Taowyyy" target="_blank" rel="noopener noreferrer" class="hover:text-accent transition-colors">GitHub</a>
