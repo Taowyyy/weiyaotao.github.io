@@ -2,11 +2,11 @@
   {
     "title": "SurgTTE: Distributional Time-to-Event Modeling for Online Surgical Workflow Anticipation",
     "authors": "<strong>Weiyao Tao</strong>, et al.",
-    "type": "preprint",
+    "type": "accepted",
     "isFirstAuthor": true,
     "showOnHomepage": true,
     "featuredOrder": 1,
-    "venue": "Under Review at WACV 2027 Applications Track",
+    "venue": "WACV 2027",
     "year": "2027",
     "highlight": "",
     "thumbnail": "assets/publications/placeholder/paper-thumb.png",
