@@ -1,26 +1,28 @@
 [
-  {
-    "title": "SurgTTE: Distributional Time-to-Event Modeling for Online Surgical Workflow Anticipation",
-    "authors": "<strong>Weiyao Tao</strong>, et al.",
-    "type": "accepted",
-    "isFirstAuthor": true,
-    "showOnHomepage": true,
-    "featuredOrder": 1,
-    "venue": "WACV 2027",
-    "year": "2027",
-    "highlight": "",
-    "thumbnail": "assets/publications/surgtte.png",
-    "tags": [
-      {
-        "text": "Paper",
-        "link": "#"
-      },
-      {
-        "text": "Code",
-        "link": "#"
-      }
-    ]
-  },
+  
+{
+  "title": "SurgTTE: Distributional Time-to-Event Modeling for Online Surgical Workflow Anticipation",
+  "authors": "<strong>Weiyao Tao</strong>, Nisarg A. Shah, Dehshini Ali, Mingze Xia, Shameema Sikder, Vishal M. Patel, S. Swaroop Vedula",
+  "type": "accepted",
+  "isFirstAuthor": true,
+  "showOnHomepage": true,
+  "featuredOrder": 1,
+  "venue": "WACV 2027",
+  "year": "2027",
+  "highlight": "",
+  "thumbnail": "assets/publications/surgtte.png",
+  "tags": [
+    {
+      "text": "Paper",
+      "link": "#"
+    },
+    {
+      "text": "Code",
+      "link": "#"
+    }
+  ]
+},
+
   {
     "title": "SurvUnc: A Meta-Model Based Uncertainty Quantification Framework for Survival Analysis",
     "authors": "Yu Liu, <strong>Weiyao Tao</strong>, Tong Xia, Simon Knight, Tingting Zhu",
